@@ -10,7 +10,7 @@ def client():
 # Test for "/" route
 def test_hello_world(client):
     response = client.get('/')
-    assert response.data == b"Hello, World!"
+    assert response.data == b"Hello, flask"
     assert response.status_code == 200
 
 # Test for "/hello/<name>" route
