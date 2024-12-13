@@ -1,4 +1,5 @@
 import pytest
+from flask import Flask
 from app import app
 
 # Flask app ka test client banayein
